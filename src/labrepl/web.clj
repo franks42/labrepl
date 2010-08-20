@@ -8,5 +8,6 @@
 (def default-javascripts
   ["/javascripts/jquery.js"
    "/javascripts/application.js"
+   "/javascripts/xregexp.js"
    "/javascripts/shCore.js"
    "/javascripts/shBrushClojure.js"])
