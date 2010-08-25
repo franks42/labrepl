@@ -61,7 +61,7 @@
     `(showme* '~c)))
 
 (defn output-indent
-  "Indent output lines with ';-> /   ' (for showing REPL results (...as a comment ';' to facilitate simple copy&paste in a REPL))."
+  "Indent output lines with ';-> ' (for showing REPL results (...as a comment ';' to facilitate simple copy&paste in a REPL))."
   [lines]
   (str
    ";-> "
